@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TechFiosCRM Application Test Automation Test Suite">
+
+	<test name="TechFiosCRM App Test Cases">
+		<classes>
+			<class name="test.LoginTest"></class>
+			<class name="test.AddDepositTest"></class>
+			<class name="test.AddExpenseTest"></class>
+
+		</classes>
+	</test>
+</suite>
